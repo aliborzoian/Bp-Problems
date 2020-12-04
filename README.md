@@ -1,2 +1,2 @@
 # Bp-Problems
-Basic Programming course in Sharif University of Technology problem solutions (Java)
+Problem solutions of Basic Programming course in Sharif University of Technology (Java)
