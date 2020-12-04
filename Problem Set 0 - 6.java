@@ -21,14 +21,13 @@ public class Hello {
         String str = scanner.nextLine();
         String[] Chars = str.split("\\s"); // Saving mathematic operations in an array
         // I did it again. I used taking string input and spliting it. Python habits... You can do it by using scanner.next(); in a loop like this:
-        /*
-        String[] Chars = new String[n - 1];
+        
+        /* String[] Chars = new String[n - 1];
         int j = 0;
         while (j < n - 1){
             Nums[j] = scanner.next();
             j += 1;
-        }
-        */
+        } */
         
 
         int j = 0;
@@ -50,7 +49,7 @@ public class Hello {
             j += 1;
         }
 
-        String Total_str = String.format("%.6f", Total); // Setting the decimal to ".df"
+        String Total_str = String.format("%.6f", Total); // Setting the decimal to ".6f"
         System.out.println(Total_str);
         }
     }
