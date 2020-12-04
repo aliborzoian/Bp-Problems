@@ -18,7 +18,7 @@ public class Hello {
 I usually take the whole series of numbers in a lines like "1 2 12 123" as a string and then use split to extract the actual numbers in Python (I don't know if there's a better way). 
 So I used it the first time in Java as well. It's really embaressing, but I'll put is here as well:*/
 
-/*import java.util.Scanner;
+/* import java.util.Scanner;
 
 public class Hello {
     public static void main(String[] args) {
@@ -32,5 +32,5 @@ public class Hello {
         long x = (a + b) * c - d;
         System.out.println(x);
     }
-}*/
+} */
 
