@@ -16,7 +16,7 @@ public class Main {
 
 /* P.S. My Actual solution at the first was a mess since I've used Python before and didn't know there was a nextInt syntax.
 I usually take the whole series of numbers in a lines like "1 2 12 123" as a string and then use split to extract the actual numbers in Python (I don't know if there's a better way). 
-So I used it the first time in Java as well. It's really embaressing, but I'll put is here as well:*/
+So I used it the first time in Java as well. It's really embaressing, but I'll put it is here as well:*/
 
 /* import java.util.Scanner;
 
