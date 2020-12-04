@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Hello {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,7 +13,7 @@ public class Hello {
 
         // So basically we need to multiply b, p times to itself. For that, We declare a variable Total and multiply b, p times to it.
 
-        while (p > 0){
+        while (p > 0) {
             Total = Total * b;
             p = p - 1;
         }
