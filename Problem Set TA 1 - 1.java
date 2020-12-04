@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Hello {
+public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
@@ -11,7 +11,7 @@ public class Hello {
         
         StringBuilder Answer = new StringBuilder();
 
-        while(Number > 0){
+        while(Number > 0) {
             int temp = Number % 2; // Typical base 10 to base 2 convertor. We just divide Number by 2 until it hits 0 and put the reminders in a reversed order.
             Number = Number / 2;
             Answer.append(String.valueOf(temp));
