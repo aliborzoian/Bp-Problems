@@ -1,32 +1,27 @@
-// Problem: Given four points A, B, C and D, detemine if the segments AB and CD intersect.
+// Problem: Given four points A, B, C and D, determine if the segments AB and CD intersect.
 
 // I copied the code from https://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect
 
 import java.util.Scanner;
 
-class Hello
-{
-    static class Point
-    {
+class Main {
+    static class Point {
         double x;
         double y;
-        public Point(double x, double y)
-        {
+        public Point(double x, double y) {
             this.x = x;
             this.y = y;
         }
-    };
+    }
 
-    static boolean onSegment(Point p, Point q, Point r)
-    {
+    static boolean onSegment(Point p, Point q, Point r) {
         if (q.x <= Math.max(p.x, r.x) && q.x >= Math.min(p.x, r.x) &&
                 q.y <= Math.max(p.y, r.y) && q.y >= Math.min(p.y, r.y))
             return true;
         return false;
     }
 
-    static int orientation(Point p, Point q, Point r)
-    {
+    static int orientation(Point p, Point q, Point r) {
         double val = (q.y - p.y) * (r.x - q.x) -
                 (q.x - p.x) * (r.y - q.y);
 
@@ -35,8 +30,7 @@ class Hello
         return (val > 0)? 1: 2; // clock or counterclock wise
     }
 
-    static boolean doIntersect(Point p1, Point q1, Point p2, Point q2)
-    {
+    static boolean doIntersect(Point p1, Point q1, Point p2, Point q2) {
         double o1 = orientation(p1, q1, p2);
         double o2 = orientation(p1, q1, q2);
         double o3 = orientation(p2, q2, p1);
@@ -57,8 +51,7 @@ class Hello
         return false;
     }
 
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         double Ax = sc.nextInt();
