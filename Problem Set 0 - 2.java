@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Hello {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         long a = scanner.nextInt(); // We use long instead of int since 0 < a, b, c, d < 1000000.
@@ -20,7 +20,7 @@ So I used it the first time in Java as well. It's really embaressing, but I'll p
 
 /* import java.util.Scanner;
 
-public class Hello {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String str = scanner.nextLine(); // We take the numbers in the line and put them in a string like "a b c d".
