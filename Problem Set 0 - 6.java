@@ -18,8 +18,8 @@ public class Hello {
             i += 1;
         }
 
-        String str = scanner.nextLine();
-        String[] Chars = str.split("\\s"); // Saving mathematic operations in an array
+        String Str = scanner.nextLine();
+        String[] Chars = Str.split("\\s"); // Saving mathematic operations in an array
         // I did it again. I used taking string input and spliting it. Python habits... You can do it by using scanner.next(); in a loop like this:
         
         /* String[] Chars = new String[n - 1];
@@ -33,17 +33,14 @@ public class Hello {
         int j = 0;
         double Total = list[0]; // The variable we'd like to make changes to it since in every step we perform the operation to the previous number. 
 
-        while (j<n-1){
-            if (Chars[j].equals("+")){
+        while (j < n - 1) {
+            if (Chars[j].equals("+")) {
                 Total += list[j + 1];
-            }
-            else if (Chars[j].equals("-")){
+            } else if (Chars[j].equals("-")) {
                 Total -= list[j + 1];
-            }
-            else if (Chars[j].equals("*")){
+            } else if (Chars[j].equals("*")) {
                 Total *= list[j + 1];
-            }
-            else if (Chars[j].equals("/")){
+            } else if (Chars[j].equals("/")) {
                 Total = Total / (double) list[j + 1];
             }
             j += 1;
