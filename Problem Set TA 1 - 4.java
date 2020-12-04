@@ -13,7 +13,7 @@ public class Hello {
         String Answer = "";
         
         int i = 0;
-        while (i < Length){
+        while (i < Length) {
             if (!(String.valueOf(Str.charAt(i)).equals("a") || 
                   String.valueOf(Str.charAt(i)).equals("e") ||
                   String.valueOf(Str.charAt(i)).equals("o") ||
